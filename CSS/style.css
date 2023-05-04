@@ -1,16 +1,16 @@
 :root{
-    --roxo: rgb(59, 13, 102);
-    --roxo-escuro-div: rgb(73, 8, 126);
-    --roxo-claro-div: rgba(148, 90, 202, 0.315);
+    --roxo: rgb(13, 49, 102);
+    --roxo-escuro-div: rgb(85, 154, 219);
+    --roxo-claro-div: rgba(152, 184, 219, 0.315);
     --fonte-div: 'Franklin Gothic Medium','Arial Narrow', Arial, sans-serif;
     --cor-div-letra: rgb(0, 0, 0);
     /*Root Menu*/
-    --cor-FundoMenu: rgba(193, 170, 214, 0.178);
+    --cor-FundoMenu: rgba(125, 169, 228, 0.178);
     --border-Menu: rgba(163, 160, 160, 0.24);
     --cor-letraMenu: black;
     /*Root Medicamentos Página*/
     --cor-fundoMedicamentos: rgba(214, 217, 219, 0.486);
-    --cor-letraMedicamentos: rgb(73, 8, 126);
+    --cor-letraMedicamentos: rgb(17, 111, 235);
     --font-paragrafosMedicamentos: 20px;
 }
 /******INDEX*/
@@ -119,7 +119,7 @@
 }
 /***Divisão em cores-3**/
 .div-roxo-finoAbaixo{
-    background-color: rgb(73, 8, 126);
+    background-color: rgb(84, 149, 192);
     width: 100%; 
     height: 2px; 
     margin-bottom: 1px;
@@ -178,17 +178,28 @@
 }
 .main-Menu{
     font-size: 25px;
-    margin: 5px;
+    margin-left: -40px;
 }
 .div-menuContainer ul div{
     margin: 25px;
 }
-.div-menuContainer ul div li a{
-    border: 1px solid var(--border-Menu);
+.div-menuContainer ul li a{
     padding: 8px;
     border-radius: 15px;
+}
+.div-menuContainer a{
     text-decoration: none;
-    color: var(--cor-letraMenu);
+    color: #000000;
+}
+.div-menuContainer a:hover{
+    color:white;
+    font-weight: bold;
+}
+.div-links-menuMedicamentos:hover{
+    background-color: rgb(91, 153, 211);
+    box-shadow: 10px 10px 10px rgb(185, 185, 181);
+    border-radius: 10px;
+    padding: 4px;
 }
 /*Pagina*/
 /**********MEDICAMENTOS*/
@@ -207,15 +218,15 @@
 }
 .posologiaGrandesAnimais{
     font-size: 20px;
-    color: rgb(80, 32, 170);
+    color: rgb(32, 69, 170);
 }
 .div-informacoesPrecacoes{
-    background-color: rgba(137, 43, 226, 0.123); 
+    background-color: rgba(83, 103, 219, 0.123); 
     padding: 20px;
     border-radius: 10px;
 }
 .div-informacoesPrecacoes h2{
-    color: rgb(50, 6, 92);
+    color: rgb(53, 66, 255);
     font-size: 23px;
 }
 .div-informacoesPrecacoes h3{
