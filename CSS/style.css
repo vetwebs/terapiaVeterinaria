@@ -15,7 +15,7 @@
 }
 /******INDEX*/
 .body-index{
-    background: linear-gradient(rgb(153, 83, 219),rgb(181, 158, 192));
+    background: linear-gradient(rgb(153, 83, 219) 80%,rgb(181, 158, 192));
 }
 .main-index{
     text-align: center;
@@ -39,18 +39,18 @@
     text-shadow: 3px 0em #1b1b1b
 }
 .div-pequenos-animais{
-    color: whit
-    e; font-size: 26px;
+    color: white;
+    font-size: 26px;
 }
 .footer-index{
-    color: black
+    color: rgb(39, 38, 38)
     ; font-weight: 
     bold; 
     margin-top: 5%;
 }
 /*********Links importantes*/
-.div-links-importantes{
-    margin-top: 12%;
+.div-links-importantes div{
+    margin: 12% 5% 0 0;
 }
 .div-ancoras{
     display: flex; 
@@ -59,14 +59,14 @@
 }
 .div-ancoras a{
     text-decoration: none; 
-    color: rgb(0, 0, 0); 
-    font-size: 14px; 
+    color: rgb(23, 63, 194); 
+    font-size: 12px; 
     font-weight:bold;
     margin-left: 10%;
 }
-.footer-vetDev{
+.footer-vetDev {
     color: rgb(2, 39, 7); 
-    margin-top: 5%; 
+    text-align: center;
     font-size: 10px; 
     padding-bottom: 10px;
     font-weight: 500;
