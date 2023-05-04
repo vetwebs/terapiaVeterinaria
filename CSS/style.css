@@ -1,0 +1,223 @@
+:root{
+    --roxo: rgb(59, 13, 102);
+    --roxo-escuro-div: rgb(73, 8, 126);
+    --roxo-claro-div: rgba(148, 90, 202, 0.315);
+    --fonte-div: 'Franklin Gothic Medium','Arial Narrow', Arial, sans-serif;
+    --cor-div-letra: rgb(0, 0, 0);
+    /*Root Menu*/
+    --cor-FundoMenu: rgba(193, 170, 214, 0.178);
+    --border-Menu: rgba(163, 160, 160, 0.24);
+    --cor-letraMenu: black;
+    /*Root Medicamentos Página*/
+    --cor-fundoMedicamentos: rgba(214, 217, 219, 0.486);
+    --cor-letraMedicamentos: rgb(73, 8, 126);
+    --font-paragrafosMedicamentos: 20px;
+}
+/******INDEX*/
+.body-index{
+    background: linear-gradient(rgb(153, 83, 219),rgb(181, 158, 192));
+}
+.main-index{
+    text-align: center;
+}
+.div-mark-g-papich{
+    background-color: rgba(218, 240, 21, 0.925);
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif; 
+}
+.div-manual-saunders{
+    color: rgb(229, 233, 18); 
+    font-size: 30px; 
+    font-weight: bold;
+    margin-top: 5%;;
+}
+.div-terapia-veterinaria{
+    color: blue; 
+    font-weight:  bold; 
+    font-size: 50px; 
+    margin-top: 5%; 
+    text-shadow: 3px 0em #1b1b1b
+}
+.div-pequenos-animais{
+    color: whit
+    e; font-size: 26px;
+}
+.footer-index{
+    color: black
+    ; font-weight: 
+    bold; 
+    margin-top: 5%;
+}
+/*********Links importantes*/
+.div-links-importantes{
+    margin-top: 12%;
+}
+.div-ancoras{
+    display: flex; 
+    justify-content:center;
+     padding-top: 20px;
+}
+.div-ancoras a{
+    text-decoration: none; 
+    color: rgb(0, 0, 0); 
+    font-size: 14px; 
+    font-weight:bold;
+    margin-left: 10%;
+}
+.footer-vetDev{
+    color: rgb(2, 39, 7); 
+    margin-top: 5%; 
+    font-size: 10px; 
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+/*Pagina*/
+/**********Cálculo de Doses*/
+.main-calculo-doses{
+    font-family: 'Times New Roman', Times, serif;
+}
+.div-container{
+    margin: 10px; 
+    font-size: 20px;
+}
+.div-container h1{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--roxo);
+}
+.div-calculo-{
+    display: flex; 
+    justify-content: center; 
+    flex-direction: column; 
+    align-items: center; 
+    font-weight: bold; 
+    padding: 5px;
+}
+.div-exemplo{
+    background-color: rgba(205, 233, 223, 0.253); 
+    padding: 5px; 
+    border-radius: 10px;
+}
+.div-calculoJS{
+    display: flex ; 
+    flex-direction: column;
+     margin: 0 20% 0 20%;
+}
+/*Pagina*/
+/**********Informações Sobre Conversões*/
+/***Divisão em cores**/
+.div-roxo-escuroCabecalho{
+    background-color:var(--roxo-escuro-div);
+    width: 100%; 
+    height: 8px; 
+    margin-bottom: 3px;
+}
+/***Divisão em cores-2**/
+.div-roxo-escuroCabecalho-2{
+    background-color: var(--roxo-claro-div); 
+    padding: 10px;
+}
+/***Divisão em cores-3**/
+.div-roxo-finoAbaixo{
+    background-color: rgb(73, 8, 126);
+    width: 100%; 
+    height: 2px; 
+    margin-bottom: 1px;
+}
+.div-texto-h1{
+    margin: 10px;
+}
+.div-texto-h1 h1{
+    font-size: 23px; 
+    font-family:var(--fonte-div);
+    color: rgb(0, 0, 0); 
+    text-align: center;
+}
+.div-inf-conversao-container{
+    margin: 10px; 
+    font-size: 20px;
+}
+.div-inf-conversao-container h1{
+    font-size: 22px;
+}
+/*Pagina*/
+/**********Inseção de Responsabilidade*/
+.main-insencaoResp{
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 23px;
+}
+.main-insencaoResp div{
+    margin: 10px;
+}
+.main-insencaoResp div h1{
+    color: var(--roxo-escuro-div);
+     font-size: 28px; 
+     font-weight: bold; 
+     text-align: center;
+}
+/*Pagina*/
+/**********Medicamentos proibidos*/
+.div-container-20px{
+    margin: 10px;
+    font-size: 20px;
+}
+/*Pagina*/
+/**********Referência para Prescrição*/
+.h1-SobreMedicacoes{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.font21px{
+    font-size: 21px;
+}
+/*Pagina*/
+/**********Menus de Medicamentos*/
+.body-Menu{
+    background-color: var(--cor-FundoMenu);
+}
+.main-Menu{
+    font-size: 25px;
+    margin: 5px;
+}
+.div-menuContainer ul div{
+    margin: 25px;
+}
+.div-menuContainer ul div li a{
+    border: 1px solid var(--border-Menu);
+    padding: 8px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: var(--cor-letraMenu);
+}
+/*Pagina*/
+/**********MEDICAMENTOS*/
+.body-Medicamentos{
+    background-color: var(--cor-fundoMedicamentos);
+}
+.h1-Medicamentos{
+    color: var(--cor-letraMedicamentos);
+}
+.fontParagrafos-medicamentos{
+    font-size: var(--font-paragrafosMedicamentos);
+}
+.posologiaPeqAnimais{
+    font-size: 20px;
+    color: rgb(15, 100, 60);
+}
+.posologiaGrandesAnimais{
+    font-size: 20px;
+    color: rgb(80, 32, 170);
+}
+.div-informacoesPrecacoes{
+    background-color: rgba(137, 43, 226, 0.123); 
+    padding: 20px;
+    border-radius: 10px;
+}
+.div-informacoesPrecacoes h2{
+    color: rgb(50, 6, 92);
+    font-size: 23px;
+}
+.div-informacoesPrecacoes h3{
+    font-size: 19px;
+}
