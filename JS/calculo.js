@@ -31,3 +31,4 @@ function calcularDose() {
   document.getElementById("dose-necessaria").value = doseNecessaria.toFixed(2) + " mg";
   document.getElementById("num-comprimidos").value = numComprimidos.toFixed(2);
 }
+
